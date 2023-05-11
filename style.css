@@ -128,3 +128,15 @@ body{
     align-items: center;
     margin-top: 800px;
 }
+
+.slider{
+    display: flex;
+    overflow-x: scroll;
+}
+.slider-card{
+    margin: 10px;
+    width: 400px;
+    height: 600px;
+    background-image: url(img/card.png);
+    background-size: 100% 100%;
+}
